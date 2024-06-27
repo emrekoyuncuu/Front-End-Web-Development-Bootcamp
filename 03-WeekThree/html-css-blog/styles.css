@@ -1,0 +1,82 @@
+/* Genel stil ayarları */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Başlık ve footer stil ayarları */
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Navigasyon menüsü stil ayarları */
+nav {
+    background-color: #444;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Ana içerik bölümü stil ayarları */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Blog gönderisi kartı stil ayarları */
+article {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* Başlık stil ayarları */
+h1, h2 {
+    color: #333;
+}
+
+/* Paragraf stil ayarları */
+p {
+    color: #666;
+}
+
+/* Bağlantı stil ayarları */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
