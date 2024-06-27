@@ -23,5 +23,3 @@ This project is a simple blog site created using HTML and CSS as part of a web d
 ## Preview
 
 The site uses Lorem Picsum for placeholder images, providing a different random image each time the page is loaded.
-
----
