@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Linking to the stylesheet -->
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="title">Registration Form</h1>
+        <p class="description">Please fill out the form below.</p>
+
+        <!-- Form element start -->
+        <form id="survey-form">
+            <!-- Name input field -->
+            <label class="form-label" for="name">Name:</label>
+            <input id="name" type="text" placeholder="Enter your name" required>
+
+            <!-- Email input field -->
+            <label class="form-label" for="email">Email:</label>
+            <input id="email" type="email" placeholder="Enter your email address" required>
+
+            <!-- Age input field -->
+            <label class="form-label" for="number">Age:</label>
+            <input id="number" type="number" min="1" max="120" placeholder="Enter your age" required>
+
+            <!-- Gender dropdown selection -->
+            <label class="form-label" for="dropdown">Gender:</label>
+            <select id="dropdown" required>
+                <option value="">Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+
+            <!-- Marital status radio buttons -->
+            <fieldset>
+                <legend class="form-label">Marital Status:</legend>
+                <label><input type="radio" name="marital-status" value="single" required> Single</label>
+                <label><input type="radio" name="marital-status" value="married"> Married</label>
+            </fieldset>
+
+            <!-- Hobbies checkboxes -->
+            <fieldset>
+                <legend class="form-label">Hobbies:</legend>
+                <label><input type="checkbox" name="hobbies" value="reading"> Reading</label>
+                <label><input type="checkbox" name="hobbies" value="writing"> Writing</label>
+                <label><input type="checkbox" name="hobbies" value="sports"> Sports</label>
+            </fieldset>
+
+            <!-- Additional comments textarea -->
+            <label class="form-label" for="comments">Additional Comments:</label>
+            <textarea id="comments" placeholder="Enter your comments"></textarea>
+
+            <!-- Submit button -->
+            <input id="submit" type="submit" value="Submit">
+        </form>
+        <!-- Form element end -->
+    </div>
+
+</body>
+</html>
