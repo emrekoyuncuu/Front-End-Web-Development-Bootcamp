@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmreAI - Customer Reviews</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-b from-gray-100 to-white">
+    <!-- Header -->
+    <header class="bg-indigo-600 text-white fixed w-full z-10">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <i data-feather="cpu" class="h-8 w-8 mr-3"></i>
+                <div class="text-2xl font-bold">EmreAI</div>
+            </div>
+            <div class="hidden md:flex space-x-4 items-center">
+                <a href="#overview" class="hover:text-indigo-200">Overview</a>
+                <a href="#featured-reviews" class="hover:text-indigo-200">Featured Reviews</a>
+                <a href="#review-categories" class="hover:text-indigo-200">Categories</a>
+                <a href="#submit-review" class="hover:text-indigo-200">Submit Review</a>
+                <a href="#contact" class="hover:text-indigo-200">Contact Us</a>
+                <div class="relative">
+                    <input type="text" placeholder="Search reviews" class="bg-indigo-500 text-white placeholder-indigo-200 px-4 py-1 rounded-full focus:outline-none focus:ring-2 focus:ring-indigo-300">
+                    <i data-feather="search" class="w-5 h-5 text-indigo-200 absolute right-3 top-1/2 transform -translate-y-1/2"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="pt-14">
+        <!-- Overview Section -->
+        <section id="overview" class="bg-gradient-to-b from-indigo-600 to-indigo-500 text-white py-20">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-4">Customer Reviews for EmreAI</h1>
+                <p class="text-xl mb-8">See what our customers are saying about our AI-powered solutions</p>
+                <div class="flex justify-center items-center space-x-4">
+                    <div class="text-4xl font-bold">4.8</div>
+                    <div class="text-yellow-400 text-2xl">★★★★★</div>
+                    <div>Based on 1,234 reviews</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Reviews Section -->
+        <section id="featured-reviews" class="bg-gradient-to-b from-indigo-500 to-indigo-400 py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center text-white mb-12">Featured Reviews</h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Featured Review Card 1 -->
+                    <div class="bg-white rounded-lg shadow-md p-6 flex flex-col">
+                        <div class="flex items-center mb-4">
+                            <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Sarah L." class="w-12 h-12 rounded-full mr-4">
+                            <div>
+                                <h3 class="font-semibold text-lg">Sarah L.</h3>
+                                <p class="text-gray-600">Marketing Manager</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-700 mb-4">"EmreAI has revolutionized our content creation process. It's like having an expert copywriter available 24/7!"</p>
+                        <div class="mt-auto flex items-center">
+                            <div class="text-yellow-400 flex">★★★★★</div>
+                            <span class="ml-2 text-gray-600">5.0</span>
+                        </div>
+                    </div>
+                    <!-- Featured Review Card 2 -->
+                    <div class="bg-white rounded-lg shadow-md p-6 flex flex-col">
+                        <div class="flex items-center mb-4">
+                            <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="John D." class="w-12 h-12 rounded-full mr-4">
+                            <div>
+                                <h3 class="font-semibold text-lg">John D.</h3>
+                                <p class="text-gray-600">Software Engineer</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-700 mb-4">"The code assistance feature in EmreAI is a game-changer. It's helped me improve my coding efficiency by at least 30%."</p>
+                        <div class="mt-auto flex items-center">
+                            <div class="text-yellow-400 flex">★★★★★</div>
+                            <span class="ml-2 text-gray-600">5.0</span>
+                        </div>
+                    </div>
+                    <!-- Featured Review Card 3 -->
+                    <div class="bg-white rounded-lg shadow-md p-6 flex flex-col">
+                        <div class="flex items-center mb-4">
+                            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Emily R." class="w-12 h-12 rounded-full mr-4">
+                            <div>
+                                <h3 class="font-semibold text-lg">Emily R.</h3>
+                                <p class="text-gray-600">Data Analyst</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-700 mb-4">"EmreAI's data analysis capabilities are impressive. It helps me uncover insights I might have missed otherwise."</p>
+                        <div class="mt-auto flex items-center">
+                            <div class="text-yellow-400 flex">★★★★<span class="text-gray-300">★</span></div>
+                            <span class="ml-2 text-gray-600">4.0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Review Categories Section -->
+        <section id="review-categories" class="bg-gradient-to-b from-indigo-400 to-indigo-300 py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center text-white mb-12">Review Categories</h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                        <i data-feather="code" class="w-12 h-12 mx-auto mb-4 text-indigo-600"></i>
+                        <h3 class="text-xl font-semibold mb-2">Code Assistance</h3>
+                        <p class="text-gray-600 mb-4">Average Rating: 4.9</p>
+                        <a href="#" class="text-indigo-600 hover:underline">Read 245 reviews</a>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                        <i data-feather="bar-chart-2" class="w-12 h-12 mx-auto mb-4 text-indigo-600"></i>
+                        <h3 class="text-xl font-semibold mb-2">Data Analysis</h3>
+                        <p class="text-gray-600 mb-4">Average Rating: 4.7</p>
+                        <a href="#" class="text-indigo-600 hover:underline">Read 189 reviews</a>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                        <i data-feather="edit" class="w-12 h-12 mx-auto mb-4 text-indigo-600"></i>
+                        <h3 class="text-xl font-semibold mb-2">Content Creation</h3>
+                        <p class="text-gray-600 mb-4">Average Rating: 4.8</p>
+                        <a href="#" class="text-indigo-600 hover:underline">Read 312 reviews</a>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                        <i data-feather="users" class="w-12 h-12 mx-auto mb-4 text-indigo-600"></i>
+                        <h3 class="text-xl font-semibold mb-2">Customer Support</h3>
+                        <p class="text-gray-600 mb-4">Average Rating: 4.6</p>
+                        <a href="#" class="text-indigo-600 hover:underline">Read 178 reviews</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Submit Review Section -->
+        <section id="submit-review" class="bg-gradient-to-b from-indigo-300 to-indigo-200 py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center text-indigo-800 mb-12">Submit Your Review</h2>
+                <div class="max-w-lg mx-auto">
+                    <form class="space-y-4">
+                        <input type="text" placeholder="Your Name" class="w-full px-4 py-2 rounded-md border border-indigo-300 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                        <input type="email" placeholder="Your Email" class="w-full px-4 py-2 rounded-md border border-indigo-300 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                        <textarea placeholder="Your Review" rows="4" class="w-full px-4 py-2 rounded-md border border-indigo-300 focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+                        <div class="flex items-center">
+                            <span class="mr-2">Your Rating:</span>
+                            <div class="text-yellow-400 text-2xl">★★★★★</div>
+                        </div>
+                        <button type="submit" class="w-full bg-indigo-600 text-white px-6 py-3 rounded-md font-semibold hover:bg-indigo-700 transition duration-300">Submit Review</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section id="contact" class="bg-gradient-to-b from-indigo-200 to-indigo-100 py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center text-indigo-800 mb-12">Contact Us</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">Get in Touch</h3>
+                        <p class="mb-4">Have questions about our AI solutions? We're here to help!</p>
+                        <div class="space-y-2">
+                            <p class="flex items-center"><i data-feather="mail" class="mr-2"></i> support@emreai.com</p>
+                            <p class="flex items-center"><i data-feather="phone" class="mr-2"></i> +1 (555) 123-4567</p>
+                            <p class="flex items-center"><i data-feather="map-pin" class="mr-2"></i> 123 AI Street, Tech City, TC 12345</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">Send Us a Message</h3>
+                        <form class="space-y-4">
+                            <input type="text" placeholder="Your Name" class="w-full px-4 py-2 rounded-md border border-indigo-300 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                            <input type="email" placeholder="Your Email" class="w-full px-4 py-2 rounded-md border border-indigo-300 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                            <textarea placeholder="Your Message" rows="4" class="w-full px-4 py-2 rounded-md border border-indigo-300 focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+                            <button type="submit" class="bg-indigo-600 text-white px-6 py-3 rounded-md font-semibold hover:bg-indigo-700 transition duration-300">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h5 class="text-xl font-bold mb-4">EmreAI</h5>
+                    <p class="text-gray-400">Your trusted AI-powered solution.</p>
+                </div>
+                <div>
+                    <h5 class="text-xl font-bold mb-4">Quick Links</h5>
+                    <ul class="space-y-2">
+                        <li><a href="#overview" class="text-gray-400 hover:text-white">Overview</a></li>
+                        <li><a href="#featured-reviews" class="text-gray-400 hover:text-white">Featured Reviews</a></li>
+                        <li><a href="#review-categories" class="text-gray-400 hover:text-white">Categories</a></li>
+                        <li><a href="#submit-review" class="text-gray-400 hover:text-white">Submit Review</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="text-xl font-bold mb-4">Legal</h5>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a></li>
