@@ -1,0 +1,75 @@
+/* Set body padding for fixed navbar and background color */
+body {
+    padding-top: 54px;
+    background-color: #fafafa;
+}
+
+/* Set navbar height */
+.navbar {
+    height: 54px;
+}
+
+/* Set left margin for navbar brand (logo) */
+.navbar-brand {
+    margin-left: 192px;
+}
+
+/* Style the search input */
+.form-control {
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    color: #262626;
+    font-size: 14px;
+    padding: 3px 10px 3px 26px;
+}
+
+/* Add search icon to input placeholder */
+.form-control::placeholder {
+    background-image: url('../assets/search-solid.svg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 26px;
+}
+
+/* Adjust margins for navbar menu items */
+.navbar .d-none {
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+/* Set maximum height for stories area */
+.middlearea {
+    max-height: 200px !important;
+}
+
+/* Style the right panel */
+.rightpanel {
+    background-color: white;
+    border: none;
+    position: sticky;
+    top: 70px;
+}
+
+/* Set background color for card header and footer */
+.card-header, .card-footer {
+    background-color: white;
+}
+
+/* Remove border from buttons in card footer */
+.card-footer .btn {
+    border: none;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 991.98px) {
+    /* Remove left margin from navbar brand on small screens */
+    .navbar-brand {
+        margin-left: 0;
+    }
+    
+    /* Hide right panel on small screens */
+    .rightpanel {
+        display: none;
+    }
+}
