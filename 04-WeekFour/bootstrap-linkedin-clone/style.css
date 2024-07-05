@@ -1,0 +1,50 @@
+/* Custom styles for LinkedInClone */
+
+/* Body styles */
+body {
+    background-color: #f3f2ef;
+}
+
+/* Navbar styles */
+.navbar {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Card styles */
+.card {
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile picture styles */
+.rounded-circle {
+    border: 2px solid #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styles */
+.btn-outline-primary {
+    color: #0a66c2;
+    border-color: #0a66c2;
+}
+
+.btn-outline-primary:hover {
+    background-color: #0a66c2;
+    color: #fff;
+}
+
+/* Post interaction buttons */
+.btn-outline-secondary {
+    color: #666;
+    border-color: #666;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #f3f2ef;
+    color: #0a66c2;
+}
+
+/* Footer styles */
+footer {
+    border-top: 1px solid #ddd;
+}

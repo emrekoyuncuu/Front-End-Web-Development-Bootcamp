@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedInClone - Professional Networking</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fab fa-linkedin fa-2x text-primary"></i>
+            </a>
+            <div class="d-flex flex-grow-1 mx-lg-5">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><i class="fas fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-user-friends"></i> My Network</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-briefcase"></i> Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-comment-dots"></i> Messaging</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-bell"></i> Notifications</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="https://picsum.photos/id/345/30/30" class="rounded-circle" alt="Profile">
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">View Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Settings & Privacy</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Sign Out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main content -->
+    <div class="container mt-5 pt-5">
+        <div class="row">
+            <!-- Left sidebar -->
+            <div class="col-md-3">
+                <div class="card mb-3">
+                    <img src="https://picsum.photos/id/234/300/100" class="card-img-top" alt="Profile background">
+                    <div class="card-body text-center position-relative">
+                        <img src="https://picsum.photos/id/345/100/100" class="rounded-circle profile-image" alt="Profile picture">
+                        <h5 class="card-title mt-3">John Doe</h5>
+                        <p class="card-text">Software Developer at TechCorp</p>
+                        <hr>
+                        <div class="d-flex justify-content-between">
+                            <small class="text-muted">Who viewed your profile</small>
+                            <small class="fw-bold">64</small>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <small class="text-muted">Views of your post</small>
+                            <small class="fw-bold">412</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h6 class="card-title">Recent</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-decoration-none text-muted"><i class="fas fa-users me-2"></i>Web Development Group</a></li>
+                            <li><a href="#" class="text-decoration-none text-muted"><i class="fas fa-hashtag me-2"></i>javascript</a></li>
+                            <li><a href="#" class="text-decoration-none text-muted"><i class="fas fa-building me-2"></i>TechCorp</a></li>
+                        </ul>
+                        <h6 class="card-title mt-3">Groups</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-decoration-none text-muted"><i class="fas fa-users me-2"></i>Tech Professionals</a></li>
+                            <li><a href="#" class="text-decoration-none text-muted"><i class="fas fa-users me-2"></i>Startup Founders</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main feed -->
+            <div class="col-md-6">
+                <!-- Create post card -->
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <div class="d-flex">
+                            <img src="https://picsum.photos/id/345/40/40" class="rounded-circle me-2" alt="User">
+                            <input type="text" class="form-control rounded-pill" placeholder="Start a post">
+                        </div>
+                        <div class="mt-3">
+                            <button class="btn btn-outline-secondary me-2"><i class="fas fa-image text-primary"></i> Photo</button>
+                            <button class="btn btn-outline-secondary me-2"><i class="fas fa-video text-success"></i> Video</button>
+                            <button class="btn btn-outline-secondary me-2"><i class="fas fa-calendar-alt text-warning"></i> Event</button>
+                            <button class="btn btn-outline-secondary"><i class="fas fa-newspaper text-danger"></i> Write article</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sample posts -->
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <div class="d-flex mb-3">
+                            <img src="https://picsum.photos/id/456/40/40" class="rounded-circle me-2" alt="User">
+                            <div>
+                                <h6 class="mb-0">Jane Smith</h6>
+                                <p class="text-muted small">Marketing Manager at AdCo</p>
+                                <p class="text-muted small">2h • <i class="fas fa-globe-americas"></i></p>
+                            </div>
+                        </div>
+                        <p>Excited to announce our new product launch! Stay tuned for more details. #NewProduct #Innovation</p>
+                        <img src="https://picsum.photos/id/567/500/300" class="img-fluid mb-3 rounded" alt="Post image">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <i class="fas fa-thumbs-up text-primary"></i>
+                                <i class="fas fa-heart text-danger"></i>
+                                <span class="text-muted small">89</span>
+                            </div>
+                            <div class="text-muted small">14 comments • 5 shares</div>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between">
+                            <button class="btn btn-sm btn-outline-secondary"><i class="fas fa-thumbs-up"></i> Like</button>
+                            <button class="btn btn-sm btn-outline-secondary"><i class="fas fa-comment"></i> Comment</button>
+                            <button class="btn btn-sm btn-outline-secondary"><i class="fas fa-share"></i> Share</button>
+                            <button class="btn btn-sm btn-outline-secondary"><i class="fas fa-paper-plane"></i> Send</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <div class="d-flex mb-3">
+                            <img src="https://picsum.photos/id/789/40/40" class="rounded-circle me-2" alt="User">
+                            <div>
+                                <h6 class="mb-0">TechCorp</h6>
+                                <p class="text-muted small">500,000 followers</p>
+                                <p class="text-muted small">1d • <i class="fas fa-globe-americas"></i></p>
+                            </div>
+                        </div>
+                        <p>We're hiring! Check out our latest job openings for software developers and UX designers. #TechJobs #Hiring</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <i class="fas fa-thumbs-up text-primary"></i>
+                                <i class="fas fa-lightbulb text-warning"></i>
+                                <span class="text-muted small">256</span>
+                            </div>
+                            <div class="text-muted small">42 comments • 18 shares</div>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between">
+                            <button class="btn btn-sm btn-outline-secondary"><i class="fas fa-thumbs-up"></i> Like</button>
+                            <button class="btn btn-sm btn-outline-secondary"><i class="fas fa-comment"></i> Comment</button>
+                            <button class="btn btn-sm btn-outline-secondary"><i class="fas fa-share"></i> Share</button>
+                            <button class="btn btn-sm btn-outline-secondary"><i class="fas fa-paper-plane"></i> Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right sidebar -->
+            <div class="col-md-3">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Add to your feed</h5>
+                        <div class="d-flex mb-3">
+                            <img src="https://picsum.photos/id/678/40/40" class="rounded-circle me-2" alt="Suggested connection">
+                            <div>
+                                <h6 class="mb-0">Tech Company Inc.</h6>
+                                <p class="text-muted small">Company • Technology</p>
+                                <button class="btn btn-sm btn-outline-primary rounded-pill"><i class="fas fa-plus"></i> Follow</button>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <img src="https://picsum.photos/id/789/40/40" class="rounded-circle me-2" alt="Suggested connection">
+                            <div>
+                                <h6 class="mb-0">Sarah Johnson</h6>
+                                <p class="text-muted small">Web Developer at WebTech</p>
+                                <button class="btn btn-sm btn-outline-primary rounded-pill"><i class="fas fa-plus"></i> Connect</button>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <img src="https://picsum.photos/id/890/40/40" class="rounded-circle me-2" alt="Suggested connection">
+                            <div>
+                                <h6 class="mb-0">Digital Marketing Group</h6>
+                                <p class="text-muted small">Group • Marketing</p>
+                                <button class="btn btn-sm btn-outline-primary rounded-pill"><i class="fas fa-plus"></i> Join</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Today's top courses</h5>
+                        <ol class="list-unstyled">
+                            <li class="mb-2">
+                                <h6 class="mb-0">1. Python for Data Science</h6>
+                                <small class="text-muted">18,000 viewers</small>
+                            </li>
+                            <li class="mb-2">
+                                <h6 class="mb-0">2. Digital Marketing Fundamentals</h6>
+                                <small class="text-muted">12,500 viewers</small>
+                            </li>
+                            <li>
+                                <h6 class="mb-0">3. Agile Project Management</h6>
+                                <small class="text-muted">10,800 viewers</small>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-white text-center text-muted py-3 mt-5 border-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-6 mb-3">
+                    <h6 class="text-uppercase fw-bold mb-2">About</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-muted">About Us</a></li>
+                        <li><a href="#" class="text-muted">Community Guidelines</a></li>
+                        <li><a href="#" class="text-muted">Privacy & Terms</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-6 mb-3">
+                    <h6 class="text-uppercase fw-bold mb-2">Careers</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-muted">Job Openings</a></li>
+                        <li><a href="#" class="text-muted">Internships</a></li>
+                        <li><a href="#" class="text-muted">Talent Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-6 mb-3">
+                    <h6 class="text-uppercase fw-bold mb-2">Solutions</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-muted">Marketing</a></li>
