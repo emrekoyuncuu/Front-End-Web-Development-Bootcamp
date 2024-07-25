@@ -3,7 +3,7 @@
 This project is a dynamic and responsive web application for Zen Asian Fusion Restaurant's menu. It allows users to view menu items, filter by cuisine type, and search for specific dishes.
 
 <div align="center">
-  <img src="public/screenshot.png" alt="Zen Asian Fusion Restaurant Menu Screenshot" width="600">
+  <img src="public/screenshot.png" alt="Zen Asian Fusion Restaurant Menu Screenshot" width="900">
 </div>
 
 ## Features

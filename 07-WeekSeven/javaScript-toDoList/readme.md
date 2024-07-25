@@ -3,7 +3,7 @@
 Pro Task Manager is a sleek, modern, and feature-rich to-do list application built with HTML, CSS, and JavaScript. It offers an intuitive user interface for managing daily tasks efficiently.
 
 <div align="center">
-  <img src="public/screenshot.png" alt="Pro Task Manager Screenshot" width="600">
+  <img src="public/screenshot.png" alt="Pro Task Manager Screenshot" width="900">
 
   <br>
   <br>

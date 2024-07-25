@@ -3,7 +3,7 @@
 This project is a simple web application that generates random Chuck Norris jokes using the [Chuck Norris IO API](https://api.chucknorris.io/).
 
 <div align="center">
-  <img src="public/screenshot.png" alt="Pro Task Manager Screenshot" width="1000">
+  <img src="public/screenshot.png" alt="Pro Task Manager Screenshot" width="900">
 
   <br>
   <br>
