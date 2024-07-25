@@ -1,17 +1,22 @@
-# Kodluyoruz Frontend Web Development Path JavaScript Assignment
+# Daily Dashboard
 
-This project was prepared for the first assignment of the JavaScript section of the Kodluyoruz Frontend Web Development Path.
+This project is a simple daily dashboard application created as part of the Patika+ Frontend Web Development Bootcamp JavaScript assignment.
 
 ## Features
 
-- Asks for the user's name
-- Greets the user with the entered name
-- Displays current time and date
-- Updates time information every second
+- Personalized welcome screen
+- Real-time clock and date display (24-hour format)
+- Current weather information
+- Daily motivational quote
+- To-do list functionality
+- Pomodoro timer for productivity
+- Customizable themes
 
 ## Technologies Used
 
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript (ES6+)
 - Bootstrap 5
+- OpenWeatherMap API for weather data
+- Quotable API for random quotes
