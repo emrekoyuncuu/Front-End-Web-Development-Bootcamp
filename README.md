@@ -17,11 +17,3 @@ This intensive program covers modern web development technologies and best pract
 ## Projects
 
 This repo includes various projects developed throughout the bootcamp. Each project is designed to apply the concepts and techniques learned.
-
-## Contact
-
-For questions or feedback, please feel free to reach out to me.
-
----
-
-© 2024 Emre Koyuncu. All rights reserved.
