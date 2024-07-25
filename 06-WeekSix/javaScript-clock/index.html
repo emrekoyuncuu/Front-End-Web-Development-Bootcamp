@@ -22,7 +22,31 @@
             <h2>Hello, <span id="user-name"></span>!</h2>
             <div id="clock" class="mt-4"></div>
             <div id="date" class="mt-2"></div>
-            <p class="mt-4">You're on the 1st JavaScript assignment of the Kodluyoruz Frontend Web Development Path.</p>
+            <div id="weather" class="mt-3"></div>
+            <div id="quote" class="mt-3"></div>
+            <!-- To-Do List section -->
+            <div id="todo-list" class="mt-4">
+                <h3>To-Do List</h3>
+                <input type="text" id="todo-input" class="form-control" placeholder="Add a new task">
+                <button id="add-todo" class="btn btn-success mt-2">Add</button>
+                <ul id="todo-items" class="list-group mt-2"></ul>
+            </div>
+            <!-- Pomodoro Timer section -->
+            <div id="pomodoro" class="mt-4">
+                <h3>Pomodoro Timer</h3>
+                <div id="timer">25:00</div>
+                <button id="start-pomodoro" class="btn btn-primary mt-2">Start</button>
+                <button id="reset-pomodoro" class="btn btn-secondary mt-2">Reset</button>
+            </div>
+            <!-- Theme selector section -->
+            <div id="theme-selector" class="mt-4">
+                <h3>Choose Theme</h3>
+                <select id="theme-select" class="form-select">
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                    <option value="nature">Nature</option>
+                </select>
+            </div>
         </div>
     </div>
     <!-- JavaScript file -->

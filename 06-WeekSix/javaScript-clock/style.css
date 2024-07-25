@@ -1,21 +1,21 @@
-/* General page style */
+/* General body styles */
 body {
-    background-color: #f0f0f0;
     font-family: 'Arial', sans-serif;
+    transition: background-color 0.5s ease;
 }
 
-/* Main container style */
+/* Main container styles */
 .container {
     max-width: 600px;
     margin-top: 50px;
     padding: 30px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 /* Header styles */
-h1, h2 {
+h1, h2, h3 {
     color: #007bff;
 }
 
@@ -30,4 +30,33 @@ h1, h2 {
 #date {
     font-size: 1.5rem;
     color: #6c757d;
+}
+
+/* Quote style */
+#quote {
+    font-style: italic;
+    color: #17a2b8;
+}
+
+/* Timer style */
+#timer {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #dc3545;
+}
+
+/* Theme styles */
+.theme-light {
+    background-color: #f0f0f0;
+}
+
+.theme-dark {
+    background-color: #333;
+    color: #fff;
+}
+
+.theme-nature {
+    background-image: url('https://source.unsplash.com/1600x900/?nature');
+    background-size: cover;
+    background-attachment: fixed;
 }
