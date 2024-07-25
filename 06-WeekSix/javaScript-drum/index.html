@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhythm Master - Interactive Drum Kit</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Rhythm Master</h1>
+            <p>Unleash Your Inner Drummer</p>
+        </header>
+        
+        <div class="drum-kit-container">
+            <!-- Drum kit image -->
+            <img src="public/images/drum.png" alt="Drum Kit" class="drum-image">
+            <!-- Drum buttons -->
+            <div class="drum-kit">
+                <button class="drum" data-key="A">A</button>
+                <button class="drum" data-key="S">S</button>
+                <button class="drum" data-key="D">D</button>
+                <button class="drum" data-key="F">F</button>
+                <button class="drum" data-key="G">G</button>
+                <button class="drum" data-key="H">H</button>
+                <button class="drum" data-key="J">J</button>
+                <button class="drum" data-key="K">K</button>
+                <button class="drum" data-key="L">L</button>
+            </div>
+        </div>
+
+        <footer>
+            <p>Click or use your keyboard to play. Let the rhythm flow!</p>
+        </footer>
+    </div>
+
+    <!-- Audio elements for drum sounds -->
+    <audio data-key="A" src="public/sounds/clap.wav"></audio>
+    <audio data-key="S" src="public/sounds/hihat.wav"></audio>
+    <audio data-key="D" src="public/sounds/kick.wav"></audio>
+    <audio data-key="F" src="public/sounds/openhat.wav"></audio>
+    <audio data-key="G" src="public/sounds/boom.wav"></audio>
+    <audio data-key="H" src="public/sounds/ride.wav"></audio>
+    <audio data-key="J" src="public/sounds/snare.wav"></audio>
+    <audio data-key="K" src="public/sounds/tom.wav"></audio>
+    <audio data-key="L" src="public/sounds/tink.wav"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
