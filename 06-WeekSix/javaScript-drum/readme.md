@@ -2,9 +2,18 @@
 
 Rhythm Master is an interactive web-based drum kit application. Users can play various drum sounds using keyboard keys or on-screen buttons, creating an engaging rhythm experience.
 
-## <a href="https://javascript-drumapp.netlify.app/" target="_blank">PLAY RHYTHM MASTER LIVE DEMO</a>
+<div align="center">
+  <img src="public/images/screenshot.png" alt="Rhythm Master Screenshot" width="600">
 
-![Rhythm Master Screenshot](public/images/appSS.png)
+  <br>
+  <br>
+
+  <h2>🎵 Unleash Your Inner Drummer 🥁</h2>
+
+  <a href="https://emre-javascript-drum.netlify.app/" target="_blank">
+    <img src="https://img.shields.io/badge/LIVE%20DEMO-Play%20Now-brightgreen?style=for-the-badge&logo=github" alt="Live Demo" height="50">
+  </a>
+</div>
 
 ## Features
 
