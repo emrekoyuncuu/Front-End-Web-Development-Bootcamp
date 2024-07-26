@@ -3,7 +3,7 @@
 Rhythm Master is an interactive web-based drum kit application. Users can play various drum sounds using keyboard keys or on-screen buttons, creating an engaging rhythm experience.
 
 <div align="center">
-  <img src="public/images/screenshot.png" alt="Rhythm Master Screenshot" width="600">
+  <img src="public/images/screenshot.png" alt="Rhythm Master Screenshot" width="900">
 
   <br>
   <br>
