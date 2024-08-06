@@ -54,10 +54,10 @@ Dungeon Dice is an interactive web-based game that combines classic dice rolling
 ### Screenshots
 
 <div align="center">
-  <img src="https://github.com/emrekoyuncuu/Front-End-Web-Development-Bootcamp/blob/main/10-WeekTen/react-dungeon-dice/public/images/screenshot1.png" alt="Game Interface" width="600" style="max-width: 100%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/emrekoyuncuu/Front-End-Web-Development-Bootcamp/blob/main/10-WeekTen/react-dungeon-dice/public/images/screenshot1.png" alt="Game Interface" width="800" style="max-width: 100%; height: auto; margin-bottom: 20px;">
   <p><em>Game Interface</em></p>
 
-  <img src="https://github.com/emrekoyuncuu/Front-End-Web-Development-Bootcamp/blob/main/10-WeekTen/react-dungeon-dice/public/images/screenshot2.png" alt="Dungeon Progress" width="600" style="max-width: 100%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/emrekoyuncuu/Front-End-Web-Development-Bootcamp/blob/main/10-WeekTen/react-dungeon-dice/public/images/screenshot2.png" alt="Dungeon Progress" width="800" style="max-width: 100%; height: auto; margin-bottom: 20px;">
   <p><em>Dungeon Progress</em></p>
 </div>
 
