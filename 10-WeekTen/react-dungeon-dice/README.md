@@ -54,10 +54,10 @@ Dungeon Dice is an interactive web-based game that combines classic dice rolling
 ### Screenshots
 
 <div align="center">
-  <img src="/public/images/screenshot1.png" alt="Game Interface" width="800" style="max-width: 100%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/emrekoyuncuu/Front-End-Web-Development-Bootcamp/blob/main/10-WeekTen/react-dungeon-dice/public/images/screenshot1.png" alt="Game Interface" width="600" style="max-width: 100%; height: auto; margin-bottom: 20px;">
   <p><em>Game Interface</em></p>
 
-  <img src="/public/images/screenshot2.png" alt="Dungeon Progress" width="800" style="max-width: 100%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/emrekoyuncuu/Front-End-Web-Development-Bootcamp/blob/main/10-WeekTen/react-dungeon-dice/public/images/screenshot2.png" alt="Dungeon Progress" width="600" style="max-width: 100%; height: auto; margin-bottom: 20px;">
   <p><em>Dungeon Progress</em></p>
 </div>
 
@@ -75,21 +75,21 @@ This project is created using these technologies:
 To get a local copy up and running, follow these simple steps:
 
 1. Clone the repository
-   ""sh
+   ``sh
    git clone https://github.com/emrekoyuncuu/Front-End-Web-Development-Bootcamp.git
-   ""
+   ``
 2. Navigate to the project directory
-   ""sh
+   ``sh
    cd Front-End-Web-Development-Bootcamp/10-WeekTen/react-dungeon-dice
-   ""
+   ``
 3. Install NPM packages
-   ""sh
+   ``sh
    npm install
-   ""
+   ``
 4. Start the development server
-   ""sh
+   ``sh
    npm start
-   ""
+   ``
 
 ## 💻 Usage
 
