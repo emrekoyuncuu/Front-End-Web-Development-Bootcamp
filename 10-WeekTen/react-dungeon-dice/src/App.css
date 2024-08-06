@@ -1,0 +1,42 @@
+/* Dice rolling animation */
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  50% { transform: translate(-1px, -2px) rotate(-1deg); }
+  100% { transform: translate(1px, 2px) rotate(1deg); }
+}
+
+.dice-rolling {
+  animation: shake 0.5s infinite;
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2D3748;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4A5568;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #718096;
+}
+
+/* Custom styles for input placeholder */
+::placeholder {
+  color: #A0AEC0;
+  opacity: 1;
+}
+
+/* Custom focus styles */
+.focus-visible:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+/* Any other custom styles that can't be easily achieved with Tailwind */
